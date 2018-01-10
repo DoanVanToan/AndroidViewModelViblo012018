@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AndroidViewModel-Viblo012018</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile_sample">Notice that both fragments use getActivity() when getting the ViewModelProvider. As a result, both fragments receive the same SharedViewModel instance, which is scoped to the activity.</string>
+</resources>
