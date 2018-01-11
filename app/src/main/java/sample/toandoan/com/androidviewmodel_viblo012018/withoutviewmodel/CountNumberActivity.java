@@ -2,7 +2,6 @@ package sample.toandoan.com.androidviewmodel_viblo012018.withoutviewmodel;
 
 import android.arch.lifecycle.MutableLiveData;
 import android.arch.lifecycle.Observer;
-import android.arch.lifecycle.ViewModelProviders;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -10,7 +9,6 @@ import android.view.View;
 import android.widget.TextView;
 
 import sample.toandoan.com.androidviewmodel_viblo012018.R;
-import sample.toandoan.com.androidviewmodel_viblo012018.withviewmodel.MainViewModel;
 
 public class CountNumberActivity extends AppCompatActivity implements View.OnClickListener {
     private MutableLiveData<Integer> mScoreTeamA = new MutableLiveData<>();

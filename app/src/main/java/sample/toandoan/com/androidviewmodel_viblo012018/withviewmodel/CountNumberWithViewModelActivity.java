@@ -12,14 +12,14 @@ import android.widget.TextView;
 import sample.toandoan.com.androidviewmodel_viblo012018.R;
 
 public class CountNumberWithViewModelActivity extends AppCompatActivity implements LifecycleOwner, View.OnClickListener {
-    private MainViewModel mViewModel;
+    private CountNumberViewModel mViewModel;
     private TextView mTextScoreTeamA, mTextScoreTeamB;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_count);
-        mViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
+        mViewModel = ViewModelProviders.of(this).get(CountNumberViewModel.class);
         registerLiveDataListenner();
         initViews();
         setTitle("Count with ViewModel");

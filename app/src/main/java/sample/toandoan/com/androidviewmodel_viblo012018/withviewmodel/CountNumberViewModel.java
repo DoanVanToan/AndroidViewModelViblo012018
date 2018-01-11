@@ -9,11 +9,11 @@ import android.support.annotation.NonNull;
  * Created by doan.van.toan on 1/10/18.
  */
 
-public class MainViewModel extends AndroidViewModel {
+public class CountNumberViewModel extends AndroidViewModel {
     private MutableLiveData<Integer> mScoreTeamA = new MutableLiveData<>();
     private MutableLiveData<Integer> mScoreTeamB = new MutableLiveData<>();
 
-    public MainViewModel(@NonNull Application application) {
+    public CountNumberViewModel(@NonNull Application application) {
         super(application);
         mScoreTeamA.setValue(0);
         mScoreTeamB.setValue(0);
